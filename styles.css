@@ -11,6 +11,7 @@ body, html {
     body {
         background: url('IMG_0026.jpeg') no-repeat center center fixed; 
         background-size: cover;
+        background-positon: center center;
         justify-content: flex-end;
     }
 
