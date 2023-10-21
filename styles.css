@@ -59,7 +59,7 @@ body {
 /* Media-Query nur für Hochformat */
 @media (orientation: portrait) {
     body {
-        background: url('background_mobile.jpeg') no-repeat center center fixed; 
+        background: url('IMG_0026.jpeg') no-repeat center center fixed; 
         background-size: cover;
         justify-content: flex-end;
     }
