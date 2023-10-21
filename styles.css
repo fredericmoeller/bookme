@@ -1,19 +1,37 @@
-body {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
 }
 
-.hero-section {
-    background-color: #2C3E50;
+body {
+    background: url('background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%; /* Seitenabstände */
+}
+
+.name-section h1 {
+    font-size: 3.5em;
     color: #ECF0F1;
-    padding: 60px 0;
-    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-.content-section {
-    padding: 40px 0;
-    max-width: 800px;
-    margin: auto;
+.description-section p {
+    color: #ECF0F1;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    max-width: 500px;
 }
 
 .booking-button {
