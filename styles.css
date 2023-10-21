@@ -58,7 +58,7 @@ body {
 
 @media only screen and (max-width: 768px) and (orientation: portrait) {
     body {
-        background: url('background_mobile.jpg') no-repeat center center fixed; 
+        background: url('IMG_0026.jpeg') no-repeat center center fixed; 
         background-size: cover;
         justify-content: flex-end;
     }
