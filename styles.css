@@ -43,18 +43,6 @@ body {
 
 .booking-button:hover {
     background-color: #2980B9;
-}
-
-@media only screen and (max-width: 768px) {
-    body {
-        justify-content: flex-end;
-    }
-    
-    .content-wrapper {
-        width: 90%; 
-        padding: 5%;
-    }
-}
 
 /* Media-Query nur für Hochformat */
 @media (orientation: portrait) {
