@@ -14,26 +14,30 @@ body {
 }
 
 .content-wrapper {
-    width: 50%;
+    width: 60%; /* Etwas verkleinert für mehr Raumgefühl */
     text-align: right;
     padding: 0 5%; /* Seitenabstände */
+    background: rgba(0, 0, 0, 0.3); /* Hintergrundtransparenz für bessere Lesbarkeit */
+    border-radius: 10px;
 }
 
 .description-section p {
     color: #ECF0F1;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Größere Schrift für mehr Eleganz */
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-    max-width: 500px;
+    max-width: 600px; /* Etwas erweitert für besseren Textfluss */
+    line-height: 1.5; /* Mehr Raum zwischen Zeilen für bessere Lesbarkeit */
 }
 
 .booking-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 25px; /* Erhöhte Polsterung für eine größere und elegantere Schaltfläche */
     background-color: #3498DB;
     color: #ECF0F1;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px; /* Erhöhter Abstand vom Text für bessere Optik */
+    font-weight: bold; /* Fettschrift für mehr Prominenz */
     transition: background-color 0.3s;
 }
 
@@ -48,7 +52,7 @@ body {
     }
     
     .content-wrapper {
-        width: 100%;
+        width: 90%; /* Erweitert auf fast den gesamten Bildschirm */
         padding: 5%;
     }
 }
