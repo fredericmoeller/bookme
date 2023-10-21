@@ -5,6 +5,15 @@ body, html {
     font-family: 'Arial', sans-serif;
 }
 
+
+/* Media-Query nur für Hochformat */
+@media (orientation: portrait) {
+    body {
+        background: url('IMG_0026.jpeg') no-repeat center center fixed; 
+        background-size: cover;
+        justify-content: flex-end;
+    }
+
 /* Media-Query nur für Hochformat */
 @media (orientation: landscape) {
 body {
@@ -14,13 +23,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-/* Media-Query nur für Hochformat */
-@media (orientation: portrait) {
-    body {
-        background: url('IMG_0026.jpeg') no-repeat center center fixed; 
-        background-size: cover;
-        justify-content: flex-end;
-    }
 
     
 .content-wrapper {
