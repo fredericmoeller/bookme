@@ -14,30 +14,30 @@ body {
 }
 
 .content-wrapper {
-    width: 60%; /* Etwas verkleinert für mehr Raumgefühl */
+    width: 60%; 
     text-align: right;
-    padding: 0 5%; /* Seitenabstände */
-    background: rgba(0, 0, 0, 0.3); /* Hintergrundtransparenz für bessere Lesbarkeit */
+    padding: 0 5%; 
+    background: rgba(0, 0, 0, 0.3); 
     border-radius: 10px;
 }
 
 .description-section p {
     color: #ECF0F1;
-    font-size: 1.5em; /* Größere Schrift für mehr Eleganz */
+    font-size: 1.5em; 
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-    max-width: 600px; /* Etwas erweitert für besseren Textfluss */
-    line-height: 1.5; /* Mehr Raum zwischen Zeilen für bessere Lesbarkeit */
+    max-width: 600px; 
+    line-height: 1.5; 
 }
 
 .booking-button {
     display: inline-block;
-    padding: 12px 25px; /* Erhöhte Polsterung für eine größere und elegantere Schaltfläche */
+    padding: 12px 25px; 
     background-color: #3498DB;
     color: #ECF0F1;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 30px; /* Erhöhter Abstand vom Text für bessere Optik */
-    font-weight: bold; /* Fettschrift für mehr Prominenz */
+    margin-top: 30px; 
+    font-weight: bold; 
     transition: background-color 0.3s;
 }
 
@@ -46,13 +46,20 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    /* Für Mobilgeräte im Hochformat */
     body {
         justify-content: flex-end;
     }
     
     .content-wrapper {
-        width: 90%; /* Erweitert auf fast den gesamten Bildschirm */
+        width: 90%; 
         padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+    body {
+        background: url('background_mobile.jpeg') no-repeat center center fixed; 
+        background-size: cover;
+        justify-content: flex-end;
     }
 }
